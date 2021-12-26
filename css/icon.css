@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'ryz';
+  src:  url('../fonts/ryz/ryz.eot');
+  src:  url('../fonts/ryz/ryz.eot') format('embedded-opentype'),
+    url('../fonts/ryz/ryz.ttf') format('truetype'),
+    url('../fonts/ryz/ryz.woff') format('woff'),
+    url('../fonts/ryz/ryz.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ryz' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-arrow-down:before {
+  content: "\e902";
+}
+.icon-web-dev:before {
+  content: "\e9c9";
+}
+.icon-performance:before {
+  content: "\e9a5";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-drupal:before {
+  content: "\e901";
+}
+.icon-go-lang:before {
+  content: "\e900";
+}
+.icon-web-design:before {
+  content: "\e903";
+}
