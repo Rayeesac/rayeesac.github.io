@@ -807,16 +807,3 @@
 
 </body>
 </html>
-<?php
-include('SMTPconfig.php');
-include('SMTPClass.php');
-if($_SERVER["REQUEST_METHOD"] == "POST")
-{
-$to = $_POST['email'];
-$from = "info.rayeesac@gmail.com";
-$subject = $_POST['subject'];
-$body = $_POST['message'];
-$SMTPMail = new SMTPClient ($SmtpServer, $SmtpPort, $SmtpUser, $SmtpPass, $from, $to, $subject, $body);
-$SMTPChat = $SMTPMail->SendMail();
-}
-?>
