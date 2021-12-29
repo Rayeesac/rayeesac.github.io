@@ -728,18 +728,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="btn-bar">
-                                            <a class="btn-gradient" href="#contact">
-                                                <svg width="170">
-                                                    <defs>
-                                                        <linearGradient id="grad1">
-                                                            <stop offset="0%" stop-color="#FF8282"/>
-                                                            <stop offset="100%" stop-color="#E178ED" />
-                                                        </linearGradient>
-                                                    </defs>
-                                                     <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="160" height="50"></rect>
-                                                </svg>
-                                                <span>Send</span>
-                                            </a>
+                                            <input type="submit" class="btn-gradient" value="Send">
                                         </div>
                                     </div>
                                 </div>
