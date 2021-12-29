@@ -700,7 +700,7 @@
                             <div class="sm-title">
                                 <h4 class="font-alt">Contact us</h4>
                             </div>
-                            <form>
+                            <form method="POST" action="">
                                 <div class="row mx-auto">
                                     <div class="col-md-6">
                                         <div class="form-group">
