@@ -704,26 +704,26 @@
                                 <div class="row mx-auto">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Full name" required="">
+                                            <input type="text" class="form-control" placeholder="Full name" required="" name="name">
                                             <label class="form-label">Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email address" required="">
+                                            <input type="email" class="form-control" placeholder="Email address" required="" name=email">
                                             <label class="form-label">Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Subject" required="">
+                                            <input type="text" class="form-control" placeholder="Subject" required="" name="subject">
                                             <label class="form-label">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <textarea rows="4" class="form-control" placeholder="Type comment" required=""></textarea>
-                                            <label class="form-label">Comment</label>
+                                            <textarea rows="4" class="form-control" placeholder="Message" required="" name="message"></textarea>
+                                            <label class="form-label">Message</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -818,3 +818,16 @@
 
 </body>
 </html>
+<?php
+include('SMTPconfig.php');
+include('SMTPClass.php');
+if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+$to = $_POST['email'];
+$from = "info.rayeesac@gmail.com";
+$subject = $_POST['subject'];
+$body = $_POST['message'];
+$SMTPMail = new SMTPClient ($SmtpServer, $SmtpPort, $SmtpUser, $SmtpPass, $from, $to, $subject, $body);
+$SMTPChat = $SMTPMail->SendMail();
+}
+?>
