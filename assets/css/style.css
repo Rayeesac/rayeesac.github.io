@@ -219,7 +219,7 @@ a:hover {
         color: #0f0a0a;
     }
     .main-header .navbar-nav>li>a.active {
-        color: var(--primary-color);
+        color: #297aba;
     }
 }
 .footer {
