@@ -918,7 +918,11 @@ a:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    overflow: hidden;display: block;text-indent: 9px;padding-top: 3px;
+    overflow: hidden;
+    display: block;
+    text-indent: 9px;
+    padding-top: 3px;
+    outline: none;
 }
 .home-banner .social-icons span{opacity: 0;visibility: hidden;}
 .home-banner .social-icons a:hover {
