@@ -25,6 +25,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-eye:before {
+  content: "\e906";
+}
+.icon-calendar-o:before {
+  content: "\e901";
+}
+.icon-go-lang:before {
+  content: "\e902";
+}
+.icon-drupal:before {
+  content: "\e903";
+}
+.icon-arrow-down:before {
+  content: "\e904";
+}
+.icon-web-design:before {
+  content: "\e905";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-performance:before {
+  content: "\e9a5";
+}
+.icon-web-dev:before {
+  content: "\e9c9";
+}
 .icon-facebook:before {
   content: "\ea90";
 }
@@ -40,33 +76,6 @@
 .icon-pinterest:before {
   content: "\ead1";
 }
-.icon-location:before {
-  content: "\e947";
-}
-.icon-envelop:before {
-  content: "\e945";
-}
-.icon-phone:before {
-  content: "\e942";
-}
-.icon-arrow-down:before {
-  content: "\e902";
-}
-.icon-web-dev:before {
-  content: "\e9c9";
-}
-.icon-performance:before {
-  content: "\e9a5";
-}
-.icon-camera:before {
-  content: "\e90f";
-}
-.icon-drupal:before {
-  content: "\e901";
-}
-.icon-go-lang:before {
+.icon-time:before {
   content: "\e900";
-}
-.icon-web-design:before {
-  content: "\e903";
 }
