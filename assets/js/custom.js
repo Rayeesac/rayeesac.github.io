@@ -157,8 +157,9 @@
                 speed: 300,
                 loop:true,
                 strings: [
-                  'Developer',
-                  'Designer'
+                  'Web Developer',
+                  'Senior Software Engineer',
+                  'Web Designer'
                 ],
                 breakLines: false
             }); 
