@@ -24,3 +24,11 @@ Allow: /assets/*.js?
 Allow: /assets/*.jpg
 Allow: /assets/*.jpeg
 Allow: /assets/*.png
+Allow: /assets/*.svg
+Allow: /assets/*.webp
+
+Allow: /adding-recaptcha
+Allow: /adding-captcha-and-image-captcha
+
+Sitemap: https://www.rayeesac.ml/sitemap.txt
+
