@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     overflow-x: hidden;
-    --primary-color: #2d82c5;
+    --primary-color: #397baf;
 }
 .bg-brand{background-color: var(--primary-color);}
 .font-alt {
@@ -305,6 +305,7 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     position: relative;
     background: #fff;
+    color: #000;
 }
 .blog-post .blog-info h4 {
     font-size: 18px;
