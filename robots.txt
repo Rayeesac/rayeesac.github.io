@@ -27,8 +27,12 @@ Allow: /assets/*.png
 Allow: /assets/*.svg
 Allow: /assets/*.webp
 
-Allow: /adding-recaptcha
-Allow: /adding-captcha-and-image-captcha
+Allow: https://www.rayeesac.ml
+Disallow: https://rayeesac.github.io/adding-recaptcha
+Disallow: https://rayeesac.github.io/adding-captcha-and-image-captcha
+
+Allow: https://www.rayeesac.ml/adding-recaptcha
+Allow: https://www.rayeesac.ml/adding-captcha-and-image-captcha
 
 Sitemap: https://www.rayeesac.ml/sitemap.txt
 
