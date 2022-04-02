@@ -29,7 +29,7 @@ Allow: /assets/*.webp
 
 Allow: *
 
-Allow: /adding-recaptcha.html
+Allow: /how-to-adding-recaptcha.html
 Allow: /adding-captcha-and-image-captcha.html
 
 Sitemap: https://rayeesac.ml/sitemap.txt
