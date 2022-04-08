@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^rayeesac.ml [NC]
+RewriteRule ^(.*)$ http://www.rayeesac.ml/$1 [L,R=301]
