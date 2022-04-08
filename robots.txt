@@ -32,5 +32,5 @@ Allow: *
 Allow: /how-to-adding-recaptcha.html
 Allow: /adding-captcha-and-image-captcha.html
 
-Sitemap: https://rayeesac.ml/sitemap.txt
+Sitemap: https://www.rayeesac.ml/sitemap.txt
 
