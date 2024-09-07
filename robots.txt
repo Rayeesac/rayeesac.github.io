@@ -28,6 +28,3 @@ Allow: /assets/*.svg
 Allow: /assets/*.webp
 
 Allow: *
-
-Sitemap: sitemap.xml
-
