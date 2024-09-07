@@ -29,5 +29,5 @@ Allow: /assets/*.webp
 
 Allow: *
 
-Sitemap: sitemap.txt
+Sitemap: sitemap.xml
 
