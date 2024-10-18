@@ -10837,12 +10837,10 @@ body.template-color-1 {
 .logo a img {
   transition: 0.3s;
   width: 70px;
-  height: 70px;
 }
 @media only screen and (max-width: 1199px) {
   .logo a img {
     width: 60px;
-    height: 60px;
   }
 }
 
