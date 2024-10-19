@@ -339,8 +339,10 @@
         stickyHeader: function (e) {
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 250) {
+                    $('.header-left .logo img').attr('src','assets/img/rayeesac-logo.png');
                     $('.header--sticky').addClass('sticky')
                 } else {
+                    $('.header-left .logo img').attr('src','assets/img/rayees-brand.png');
                     $('.header--sticky').removeClass('sticky')
                 }
             })
@@ -427,7 +429,7 @@
                 filter: ':not(.external)',
                 easing: 'swing',
                 scrollChange: function($currentListItem) {
-                    console.log(this);
+
                 }
             });
         },
