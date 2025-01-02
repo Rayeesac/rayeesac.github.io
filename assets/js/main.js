@@ -339,10 +339,10 @@
         stickyHeader: function (e) {
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 250) {
-                    $('.header-left .logo img').attr('src','assets/img/rayeesac-logo.png');
+                    $('.header-left .logo img').attr('src','assets/img/rayeesac-logo.webp');
                     $('.header--sticky').addClass('sticky')
                 } else {
-                    $('.header-left .logo img').attr('src','assets/img/rayees-brand.png');
+                    $('.header-left .logo img').attr('src','assets/img/rayees-brand.webp');
                     $('.header--sticky').removeClass('sticky')
                 }
             })
